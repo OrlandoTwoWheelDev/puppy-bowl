@@ -1,5 +1,7 @@
 console.log(`Do or do not. There is not try.`)
 
+
+
 const state = {
   pups: [],
   pupDetails: [],
@@ -48,11 +50,12 @@ const renderPuppies = () => {
 }   //renderPuppies end curly bracket
 
 const renderPupDetails = () => {
-  const pupDetailsHTML = `
+  const pupDetailsHTML = `<section>
   <h1>${state.pupDetails.name}</h1>
   <p>${state.pupDetails.breed}</p>
   <p>${state.pupDetails.status}</p>
-  <img src="${state.pupDetails.imageUrl}" style= width="50%" height="50%vh">`
+  <img src="${state.pupDetails.imageUrl}" style= width="50%" height="50%vh">
+  </section>`
   
   const button = document.createElement(`button`);
   button.innerText = `Back`;
