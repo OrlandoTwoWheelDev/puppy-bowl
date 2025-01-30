@@ -1,4 +1,61 @@
 body{
-  background-color: slategrey;
+  background-image: url("football-field.jpg");
+  background-color: #cccccc;
+  background-size: cover;
 }
 
+header{
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  border-style: ridge;
+  background-image: url("header-image.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+main, section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+button{
+  margin: 10px;
+  font-size: 1.5vh;
+}
+
+ol{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 2vh; font-style: italic;
+  background-color: paleturquoise;
+  padding-left: 90px;
+  padding-right: 70px;
+  border-style: outset;
+  background-image: url("shapes.jpg");
+  background-color: #cccccc;
+  background-size: stretch;
+}
+
+p{
+  font-size: 2vh;
+}
+
+section{
+  background-color: lightblue;
+  height: 70vh;
+  border-style: outset; border-color: darkgreen;
+  padding-left: 90px;
+  padding-right: 90px;
+  background-image: url("Halo.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+section>h1{
+  font-size: 3vh;
+}
